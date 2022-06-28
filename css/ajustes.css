@@ -1,0 +1,242 @@
+.home-three .hidden-bar {
+  background: #cba9e0;
+}
+
+.home-three .hidden-bar .follow-btns a {
+  color: #fff;
+}
+
+.bg-black {
+  background-color: #cba9e0;
+}
+
+.theme-btn.style-six,
+a.theme-btn.style-six {
+  background-color: #cba9e0;
+  border-color: #cba9e0;
+}
+
+.about-right-text .read-more,
+.section-title .sub-title,
+.pricing-item > i,
+.pricing-content .pricing-title .price {
+  color: #cba9e0;
+}
+
+.header-five.fixed-header .header-upper {
+  background: #fff;
+}
+
+.header-five.fixed-header .header-upper .logo {
+  width: 100px;
+}
+
+.slider-single-item::before {
+  background-color: #cba9e0;
+}
+
+.bg-text {
+  color: rgba(255, 185, 203, 0.2);
+}
+
+.header-five .navbar-collapse .navigation > li > a {
+  color: #000;
+}
+
+.header-inner .logo img {
+  width: 200px;
+}
+
+.slider-single-item h1 {
+  font-size: 80px;
+}
+
+.testimonial-three-area .nav-link img {
+  width: 50%;
+}
+
+.pricing-content .pricing-title h6 {
+  margin-bottom: 0;
+}
+
+.pricing-content .pricing-title .price {
+  font-size: 20px;
+}
+
+.main-footer .logo-footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.main-footer .logo-footer img {
+  width: 120px;
+}
+
+.main-footer .logo-footer .social-style-two a {
+  margin: 0 15px;
+}
+
+.copyright-social a:hover {
+  color: #fff;
+}
+
+.about-offer-item .about-offer-content .bg-text {
+  font-size: 100px;
+}
+
+/* ---- whatsapp ----*/
+.w-flotante {
+  background-color: #cba9e0;
+  width: 4rem;
+  height: 4rem;
+  position: fixed;
+  bottom: 150px;
+  right: 18px;
+  border-radius: 50%;
+  border: 1px solid #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  z-index: 1000;
+}
+
+.w-flotante:hover {
+  background-color: #232323;
+}
+
+.w-flotante .whatsapp {
+  color: white;
+  font-size: 2.5rem;
+}
+
+/* ===== Scrollbar CSS ===== */
+/* Firefox */
+* {
+  scrollbar-width: auto;
+  scrollbar-color: #cba9e0 #ffffff;
+}
+
+/* Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  width: 10px;
+}
+
+*::-webkit-scrollbar-track {
+  background: #ffffff;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #cba9e0;
+  border-radius: 10px;
+  border: 3px solid #ffffff;
+}
+
+@media (max-width: 1199px) {
+  .ubicacion iframe {
+    width: 400px;
+  }
+}
+
+@media (max-width: 991px) {
+  .mobile-logo {
+    width: 200px;
+  }
+  .header-five .navbar-header .navbar-toggle .icon-bar {
+    background: #000;
+  }
+  .header-five .navbar-collapse .navigation {
+    background-color: #fff;
+  }
+  .price-left-shape {
+    display: none;
+  }
+  .franquicias .booking-section-three {
+    padding-top: 100px;
+  }
+  .ubicacion iframe {
+    width: 300px;
+  }
+}
+
+@media (max-width: 767px) {
+  .slider-single-item h1 {
+    font-size: 42px;
+  }
+  .slider-single-item .subtitle {
+    font-size: 18px;
+  }
+  .copyright-area {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .copyright-social {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .social-style-two a {
+    margin: 0 15px;
+  }
+}
+
+@media (max-width: 575px) {
+  .main-footer .logo-footer {
+    margin-bottom: 15px;
+  }
+  .main-footer .logo-footer img {
+    width: 150px;
+  }
+  .main-footer .copyright-social {
+    margin-top: 15px;
+  }
+  .social-style-two {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+  }
+  .social-style-two a {
+    margin: 0;
+  }
+  .w-flotante {
+    width: 50px;
+    height: 50px;
+    right: 26px;
+    bottom: 100px;
+  }
+  .w-flotante .whatsapp {
+    font-size: 2rem;
+  }
+}
+/*# sourceMappingURL=ajustes.css.map */
